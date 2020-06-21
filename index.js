@@ -25,3 +25,19 @@ if (number1ToNumber % number2ToNumber) {
 } else {
     alert('numbers are multiple')
 }
+
+//Треугольник
+
+const a = prompt ('enter side a ');
+const b = prompt ('enter side b ');
+const c = prompt ('enter side c ');
+const aToNumber = a -0;
+const bToNumber = b -0;
+const cToNumber = c -0;
+
+if (aToNumber < bToNumber + cToNumber && bToNumber < aToNumber + cToNumber && cToNumber < aToNumber + bToNumber) {
+    alert('a triangle is possible to build');
+} else {
+    alert('a triangle is not possible to build');
+}
+
