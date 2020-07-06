@@ -24,9 +24,9 @@ function rhombusArea(a, h) {
 
     if (h > a) {
         return ('incorrect value');
+    } else {
+        return a * h;
     }
-    return a * h;
-
 }
 
 function cylinderArea(r, h,) {
